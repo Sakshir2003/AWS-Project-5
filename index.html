@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Static Website</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            background-color: #f4f6f8; 
+            margin-top: 100px; 
+            color: #333;
+        }
+        h1 { color: #ff9900; }
+        .container { 
+            background: white; 
+            padding: 50px; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+            display: inline-block; 
+            max-width: 600px;
+        }
+        .highlight {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Serverless Website!</h1>
+        <p>This beautiful webpage is hosted entirely on <b>Amazon S3</b>.</p>
+        <p>There are no EC2 instances, no servers to manage, and no load balancers. Just pure, infinitely scalable cloud storage acting as a web server!</p>
+        <br>
+        <p class="highlight">Automated via Python Boto3 SDK 🚀</p>
+    </div>
+</body>
+</html>
